@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Kernel;
+using Ninject;
+using Ninject.Modules;
 
 namespace TopLayer
 {
@@ -10,6 +10,22 @@ namespace TopLayer
     {
         static void Main(string[] args)
         {
+            var kernel = new StandardKernel(new TopModule());
+
+            var modules = new List<INinjectModule>
+            {
+                new MiddleModule(),
+                new BottomModule()
+            };
+
+            kernel.Load(modules);
+
+            var topClass = kernel.Get<ITopClass>();
+            var message = topClass.GetMessage();
+            Console.WriteLine(message);
+
+            Console.WriteLine("Press enter to continue...");
+            Console.ReadLine();
         }
     }
 }
