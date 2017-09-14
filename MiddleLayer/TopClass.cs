@@ -1,6 +1,4 @@
-﻿using MiddleLayer;
-
-namespace TopLayer
+﻿namespace Core
 {
     public class TopClass : ITopClass
     {
@@ -11,9 +9,9 @@ namespace TopLayer
             _middleClass = middleClass;
         }
 
-        public string GetMessage()
+        public string GetMessage(string message)
         {
-            return _middleClass.GetMessage();
+            return _middleClass.GetMessage(string.Format("{0}", message));
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Core
 {
-    public interface IMiddleClass
+    public interface ITopClass
     {
         string GetMessage(string message);
     }

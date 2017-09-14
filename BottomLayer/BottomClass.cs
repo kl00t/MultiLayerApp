@@ -1,10 +1,10 @@
-﻿namespace BottomLayer
+﻿namespace Repository
 {
     public class BottomClass : IBottomClass
     {
-        public string GetMessage()
+        public string GetMessage(string message)
         {
-            return "This is a message from the bottom class.";
+            return string.Format("Hello {0}!", message);
         }
     }
 }

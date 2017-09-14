@@ -1,6 +1,6 @@
-﻿using BottomLayer;
+﻿using Repository;
 
-namespace MiddleLayer
+namespace Core
 {
     public class MiddleClass : IMiddleClass
     {
@@ -11,9 +11,9 @@ namespace MiddleLayer
             _bottomClass = bottomClass;
         }
 
-        public string GetMessage()
+        public string GetMessage(string message)
         {
-            return _bottomClass.GetMessage();
+            return _bottomClass.GetMessage(string.Format("{0}", message));
         }
     }
 }

@@ -43,9 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BottomModule.cs" />
-    <Compile Include="MiddleModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceModule.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -7,8 +7,8 @@
     <ProjectGuid>{BC2549A8-6DFA-4261-A2AC-62E2F3EAB15E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BottomLayer</RootNamespace>
-    <AssemblyName>BottomLayer</AssemblyName>
+    <RootNamespace>Repository</RootNamespace>
+    <AssemblyName>Repository</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

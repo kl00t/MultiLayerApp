@@ -1,7 +1,7 @@
-﻿namespace BottomLayer
+﻿namespace Repository
 {
     public interface IBottomClass
     {
-        string GetMessage();
+        string GetMessage(string message);
     }
 }
