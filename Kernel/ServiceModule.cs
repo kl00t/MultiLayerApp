@@ -1,4 +1,6 @@
 ﻿using Core;
+using Core.Interfaces;
+using Core.Models;
 using Ninject.Modules;
 using Repository;
 

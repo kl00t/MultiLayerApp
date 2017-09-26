@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApplication", "TopLayer\ClientApplication.csproj", "{4CDDC43A-968B-464A-87E6-EF5DFDF05347}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Core", "2. Core", "{597CCAC2-7A38-44A6-9098-FF7D0721A965}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Repository", "3. Repository", "{1BC84B1D-74E6-428F-A84E-7AA048095E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Tests", "Core.Tests\Core.Tests.csproj", "{8CA04762-1BD7-41B6-B3C3-18B321299C54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D9181CC7-5AAC-4F1A-8A32-E74936FFB932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9181CC7-5AAC-4F1A-8A32-E74936FFB932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9181CC7-5AAC-4F1A-8A32-E74936FFB932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA04762-1BD7-41B6-B3C3-18B321299C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA04762-1BD7-41B6-B3C3-18B321299C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA04762-1BD7-41B6-B3C3-18B321299C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA04762-1BD7-41B6-B3C3-18B321299C54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{BC2549A8-6DFA-4261-A2AC-62E2F3EAB15E} = {1BC84B1D-74E6-428F-A84E-7AA048095E68}
 		{64D82DE7-F178-4EB9-B3A9-7825A01C805E} = {597CCAC2-7A38-44A6-9098-FF7D0721A965}
 		{D9181CC7-5AAC-4F1A-8A32-E74936FFB932} = {046F9E2A-E2B2-4AA9-9EAE-366D4DED6466}
+		{8CA04762-1BD7-41B6-B3C3-18B321299C54} = {597CCAC2-7A38-44A6-9098-FF7D0721A965}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16D4C111-7D06-405D-9A4A-46188C5563A9}

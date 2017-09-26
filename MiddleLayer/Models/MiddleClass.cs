@@ -1,6 +1,7 @@
-﻿using Repository;
+﻿using Core.Interfaces;
+using Repository;
 
-namespace Core
+namespace Core.Models
 {
     public class MiddleClass : IMiddleClass
     {
